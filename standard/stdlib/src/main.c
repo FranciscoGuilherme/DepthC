@@ -5,8 +5,10 @@
 #include "headers/atoi.h"
 #include "headers/atol.h"
 #include "headers/rand.h"
+#include "headers/exit.h"
 #include "headers/abort.h"
 #include "headers/strtod.h"
+#include "headers/system.h"
 
 int main(int argc, char *argv[])
 {
@@ -18,6 +20,7 @@ int main(int argc, char *argv[])
     call_atol();
     call_rand();
     call_strtod();
+    call_system();
 
     return 0;
 }
