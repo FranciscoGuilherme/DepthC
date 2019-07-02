@@ -4,6 +4,9 @@
 #include "headers/atof.h"
 #include "headers/atoi.h"
 #include "headers/atol.h"
+#include "headers/rand.h"
+#include "headers/abort.h"
+#include "headers/strtod.h"
 
 int main(int argc, char *argv[])
 {
@@ -13,6 +16,8 @@ int main(int argc, char *argv[])
     call_atof();
     call_atoi();
     call_atol();
+    call_rand();
+    call_strtod();
 
     return 0;
 }
