@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 #include "headers/abs.h"
 #include "headers/div.h"
 #include "headers/atof.h"
